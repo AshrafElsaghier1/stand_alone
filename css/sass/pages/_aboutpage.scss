@@ -1,0 +1,167 @@
+
+
+.about-heading{
+	@extend .home ;
+	font-family: PTSansRegular,Arial,Helvetica,sans-serif;
+	background-image: url("../img/cover.jpg");
+
+	.overlay{
+		background-color:rgba(#6C6F78,.6);
+		h3{
+			font-size: 70px;
+			@media #{$mediaM}{
+				font-size: 60px;
+			}
+			@media #{$mediaS}{
+				font-size: 50px;
+			}
+		}
+		p{
+			font-size: 18px;
+			letter-spacing: 2px;
+
+			@media #{$mediaM}{
+				font-size: 16px;
+			}
+			@media #{$mediaS}{
+				font-size: 14px;
+			}
+
+		}
+	}
+
+}
+.about-us-sec{
+	padding-top: 150px;
+	background-color:#fff;
+	position: relative;
+	z-index: 2;
+	h3{
+		font-size: 60px;
+		letter-spacing: 1px;
+		color: #3F434F;
+		margin-bottom: 20px;
+		@media #{$mediaM}{
+			font-size: 45px;
+		}
+		@media #{$mediaS}{
+			font-size: 35px;
+		}
+
+	}
+	.span{
+		color: #fff;
+		background-color:$mainColor;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 40px;
+		text-align: center;
+		border-radius: 50%;
+		display: inline-block;
+		float: left;
+		margin-right: 10px;
+		@media #{$mediaM}{
+			width: 43px;
+			height: 43px;
+			line-height: 43px;
+			font-size: 36px;
+		}
+		@media #{$mediaS}{
+			width: 36px;
+			height: 36px;
+			line-height: 36px;
+			font-size: 32px;
+		}
+
+	}
+	.about-p{
+		display: inline-block;
+	}
+	p{
+		color: #897A87;
+		font-size: 17px;
+		line-height: 1.5;
+		margin-bottom: 25px;
+
+		
+		@media #{$mediaM}{
+			font-size: 16px;
+		}
+		@media #{$mediaS}{
+			font-size: 14px;
+		}
+
+	}
+
+	.about-image{
+		text-align:center;
+		margin-bottom: 35px;
+		img{
+			max-width: 100%;
+			@media #{$mediaM}{
+				padding-top:250px;
+			}
+			@media #{$mediaS}{
+				width: 50%;
+			}
+		}
+
+
+	}
+}
+.about-gallery{
+	background-color:#fff;
+	padding-bottom: 170px;
+	.work-image{
+		margin: 0% !important;
+		width: 16.25% !important;
+		margin-bottom: 2% !important;
+
+		i{
+			font-size: 30px;
+			@media #{$mediaM}{
+				font-size: 25px;
+			}
+			@media #{$mediaS}{
+				font-size: 20px;
+
+			}
+
+		}
+
+
+		&:not(:last-of-type){
+			margin-right: .5% !important;
+			@media #{$mediaM}{
+				margin-right: 2% !important;
+			}
+			@media #{$mediaS}{
+				margin-right: 2% !important;
+
+			}
+		}
+		@media #{$mediaM}{
+			width: 31.2% !important;
+		}
+		@media #{$mediaS}{
+			width: 		23% !important;
+		}
+
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

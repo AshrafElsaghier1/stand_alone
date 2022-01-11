@@ -1,0 +1,182 @@
+body{
+	font-family:'Anton' !important;
+}
+
+.article-section{
+	background-image: url("../img/imageEight.jpg");
+	font-family: monospace;
+	.overlay{
+		background-color: #4a4848a6;
+	}
+	h3{
+		font-size: 70px !important;
+	}
+}
+.article-sec{
+	
+	@media #{$mediaS}{
+		padding-top:70px;
+	}
+	color: #A3A7B0 !important;
+
+	p{	
+		color: #A3A7B0 !important;
+	}
+	.about-image{
+		.q-owner{
+			text-align: left;
+			display: block;
+			font-weight: 500;
+			font-size: 20px;
+			span{
+				background-color:$mainColor;
+				color: #fff;
+			}
+		}
+
+		.quote{
+			font-size: 30px;
+			line-height: 1.6;
+			margin-bottom: 20px;
+			@media #{$mediaM}{
+				font-size: 22px;
+			}
+			@media #{$mediaS}{
+				font-size: 19px;
+			}
+			span{
+				font-weight: bold;
+				font-size: 60px;
+				@media #{$mediaM}{
+					font-size: 45px;
+				}
+				@media #{$mediaS}{
+					font-size: 35px;
+				}
+			}
+		}
+	}
+}
+
+
+.article-features{
+	padding-bottom: 115px!important;
+	padding-top:0;
+	.article-feature-info{
+		width: 800px;
+		margin: auto;
+		@media #{$mediaM}{
+			width: 700px;		
+		}
+		@media #{$mediaS}{
+			width: 100%;
+		}
+
+		.bar{
+			margin: 40px auto;
+		}
+		h2{
+			font-weight: 700;
+			font-size: 50px;
+			@media #{$mediaM}{
+				font-size: 40px;			}
+
+				@media #{$mediaS}{
+					font-size: 35px;
+				}
+
+			}
+			p{
+				color:#b5b6b9;
+				@media #{$mediaM}{
+					font-size: 16px;
+				}
+				@media #{$mediaS}{
+					font-size: 13px!important;
+					line-height: 1.7;
+				}
+			}
+		}
+	}
+	.business-marketing{
+		position:relative;
+		background-image:url("../img/banner-1.jpg");
+		background-size:cover;
+		background-position: center center;
+		z-index: 2;
+		overflow: hidden;
+
+		.marketing-inner{
+			padding-top:150px;
+
+			.card:not(:last-child){
+				margin-right: 2.5%;
+				@media #{$mediaM}{
+
+					margin-right: 0%;
+				}
+
+			}
+			.card:nth-child(1){
+
+				@media #{$mediaM}{
+					margin-right: 5%;
+				}	
+			}
+
+
+			.card{
+				margin-bottom: 60px;
+				float: left;
+				width: 31.6%;
+				transition: $transition;
+				@media #{$mediaM}{
+					width: 47.5%;
+				}
+				@media #{$mediaS}{
+					width:100%;				
+					float: none;
+				}
+
+				.card-body{
+					h5{
+						color: $mainColor;
+						font-size: 27px;
+						line-height: 1.5;
+						margin-bottom: 0;
+						@media #{$mediaM}{
+							font-size: 23px;
+						}
+					}
+					span{
+						font-size: 13px;
+						color: #A3A7B0;
+						span{
+							color: $mainColor;
+							margin-left: 4px;
+						}
+					}
+					p{
+						margin: 20px 0 25px;
+						color: #A3A7B0;
+						font-size: 18px;
+						@media #{$mediaM}{
+							font-size: 16px;
+
+						}
+					}
+
+					a{
+
+						color: $mainColor;
+						font-size: 14px;
+						@media #{$mediaM}{
+							font-size: 13px;
+
+						}
+					}
+				}
+			}
+		}
+
+	}

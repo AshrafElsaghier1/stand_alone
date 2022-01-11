@@ -1,0 +1,209 @@
+.pricing-section{
+	background-image: url("../img/pricingbg.png");
+	.overlay{
+		background-color:rgba(#222,.7);
+	}
+}
+.pricing-sec{
+	p{
+		a{
+			color: $mainColor;
+			font-weight: 600;
+
+			&:hover{
+				color: $mainColor;
+			}
+		}
+	}
+}
+.pricing-feat{
+
+	padding: 50px 0 100px !important;
+
+	h2,p{
+		color: $mainColor;
+	}
+	.fa-chevron-down{
+		top: 90% !important;
+		left: 50%;
+		transform: translate(-50%, -40%);
+	}
+
+	.call-us{
+		font-size: 20px;
+		color: $mainColor;
+		font-weight: 600;
+		text-transform: uppercase;
+		margin: 30px 0 0px;
+
+
+		@media #{$mediaM}{
+			font-size: 15px;
+		}
+		@media #{$mediaS}{
+			font-size: 15px;
+		}
+	}
+}
+.pricing-blog{
+
+	.blog-inner{
+		margin-top: 20px;
+		border-bottom:1px solid $mainColor;
+		margin-bottom: 30px;
+		position: relative;
+		z-index: 2;
+
+
+	}
+	.blog-content{
+		padding: 10px 10px 1px;
+		transition: $transition;
+		background-color: #F8F8F8;
+		color: #838894;
+		margin-bottom:80px;
+		position:relative;
+		z-index: 2;
+
+
+		li{
+			border:1px solid #ededed;
+			padding: 15px;
+			cursor: pointer;
+			font-size: 17px;
+
+
+			@media #{$mediaM}{
+				font-size: 15px;
+			}
+			@media #{$mediaS}{
+				font-size: 13px;
+			}
+
+			h2{
+				font-weight: 700;
+				font-size: 40px;
+				color: #333;
+
+				@media #{$mediaM}{
+					font-size: 35px;
+				}
+				@media #{$mediaS}{
+					font-size: 30px;
+				}
+			}
+			.dollar-sign{
+				color: #333;
+				position: relative;
+				top: -22px;
+				left: 8px;
+				font-size: 23px;
+				@media #{$mediaM}{
+					font-size: 18px;
+
+				}
+				@media #{$mediaS}{
+					font-size: 15px;
+					top: -18px;
+				}
+			}
+			.price{
+				color: $mainColor;
+				font-weight: 800;
+				font-size: 50px;
+				@media #{$mediaM}{
+					font-size: 40px;
+				}
+				@media #{$mediaS}{
+					font-size: 35px;
+				}
+			}
+			.text-span{
+				font-size: 12px;
+				color: #999;
+			}
+		}
+		li:not(:last-of-type){
+			border-bottom:0;
+		}
+		.blog-h2,.weekly-blog{
+			background-color:#fff;
+
+		}
+
+
+		&:hover{
+			.blog-h2,.weekly-blog{
+				background-color:#f8f8f8;
+
+			}
+
+		}
+	}
+}
+.charge-sec{
+	.charge-inner{
+		border-bottom:1px solid $mainColor;
+		padding-bottom:60px;
+	}
+	padding:40px !important;
+	.feat-chevron{
+		top: 62% !important;
+		font-size: 40px !important;
+		left: 48.5% !important;
+		@media #{$mediaM}{
+			font-size: 35px !important;
+		}
+		@media #{$mediaS}{
+			font-size: 30px !important;
+			top: 55%!important;
+			left: 46.5% !important;
+		}
+
+	}
+	.price-feat-content{
+		overflow: hidden;
+		text-align: center;
+		p{
+			margin-top: 45px;
+			width: 20%;
+			float: left;
+			font-size: 20px;
+			color: #444;
+
+			@media #{$mediaM}{
+				font-size: 17px ;
+			}
+			@media #{$mediaS}{
+				font-size: 15px ;
+				width: 33.333%;
+			}
+		}
+	}
+
+}
+.pricing-pragraph{
+	padding: 20px !important;
+	.about-p{
+		color: #8a7e7e;
+		font-size: 18px;
+	}
+}
+.pricing-blog{
+	.blog-inner2{
+		border-bottom:0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

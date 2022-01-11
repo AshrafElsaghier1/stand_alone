@@ -1,0 +1,91 @@
+
+body{
+	@media #{$mediaS}{
+		overflow-x: hidden !important;
+
+	}
+
+}
+.work-sec{
+	background-image: url("../img/work.jpg");
+	.overlay{
+		background-color:#6a6d6fc7;
+		h3{
+			font-weight: 600;
+		}
+	}
+}
+.work-img-sec.our-work{
+
+	
+	.card{
+		height: auto !important;
+		padding-bottom:20px;
+
+		background-color:beige;
+		.card-header{
+			background-color:#e6c39e;
+			
+			.selected-gallery{
+
+
+				.nav-link{
+					color: #b7450e;
+					font-size: 18px;
+					@media #{$mediaM}{
+						font-size: 16px;
+					}
+					@media #{$mediaS}{
+						font-size: 14px;
+						padding:10px !important;
+					}
+
+					&:hover{
+						background-color: beige;		
+					}
+
+				}
+				a.active{
+					background-color:beige;
+				}
+
+
+			}
+
+		}
+
+		.img-gallery{
+			padding-top:0;
+			transition: $transition;
+			margin-top: 3%;
+			.work-image{
+				margin: .7%;
+				width: 31.9%;
+			}
+
+			i{
+				font-size: 40px;
+				@media #{$mediaM}{
+					font-size: 30px;
+				}
+
+				@media #{$mediaS}{
+					font-size: 25px;
+				}
+			}
+		}
+
+
+	}
+}
+
+.work-img {
+	padding-top:0;
+	padding-bottom: 75px !important;
+
+	.work-p{
+		color: #9EA2AB !important;
+		letter-spacing: 0 !important;
+		margin-top: 20px;
+	}
+}

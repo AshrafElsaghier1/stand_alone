@@ -1,0 +1,88 @@
+.buttons{
+	position:relative;
+}
+.btn-bar{
+	transition: $transition;
+	background-color: $mainColor;
+	height: 4px;
+	margin: 3px 0 ;
+	border-radius: 15px;
+	align-self: flex-end;
+
+}
+.fa-play{
+	margin-right: 8px;
+	font-size: 15px;
+	@media #{$mediaM}{
+
+		font-size: 13px;
+	}
+	@media #{$mediaS}{
+		font-size: 12px;
+	}
+}
+.btn-bar.one{
+	margin: 0px 15px;
+	width: 17px;
+}
+.btn-bar.two{
+	width: 35px;
+}
+.btn-bar.three{
+	width: 12px;
+	margin: 0px 4px;
+}
+
+.btn{
+	background-color:$mainColor;
+	width: 200px;
+	color: #fff;
+	border-radius:20px;
+	transition: $transition;
+	font-size: 16px;
+	margin-bottom: 20px;
+	&:hover{
+		color: $mainColor;
+		background-color:#fff;
+		border:1px solid $mainColor;
+	}
+}
+
+
+.fa-chevron-down{
+	display: block;
+	color: $mainColor;
+	font-size: 65px;
+	position:absolute;
+	left: 48%;
+	@media #{$mediaM}{
+		font-size: 45px;
+
+	}
+	@media #{$mediaS}{
+		font-size: 35px;
+	}
+
+}
+.start-proj{
+	color: #fff;
+	text-align: center;
+	h4{
+		background-color:$mainColor;
+		padding:15px;
+		font-size: 20px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		@media #{$mediaM}{
+			font-size: 18px;
+
+		}
+		@media #{$mediaS}{
+			font-size: 16px;
+		}
+
+	}
+	&:hover{
+		color: #fff;
+	}
+}
